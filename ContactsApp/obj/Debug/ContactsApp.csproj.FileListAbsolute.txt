@@ -9,3 +9,14 @@ C:\Users\pc\source\repos\ContactsApp\ContactsApp\obj\Debug\ContactsApp.csproj.Ge
 C:\Users\pc\source\repos\ContactsApp\ContactsApp\obj\Debug\ContactsApp.csproj.CoreCompileInputs.cache
 C:\Users\pc\source\repos\ContactsApp\ContactsApp\obj\Debug\ContactsApp.exe
 C:\Users\pc\source\repos\ContactsApp\ContactsApp\obj\Debug\ContactsApp.pdb
+D:\Github\ContactsApp\ContactsApp\bin\Debug\ContactsApp.exe.config
+D:\Github\ContactsApp\ContactsApp\bin\Debug\ContactsApp.exe
+D:\Github\ContactsApp\ContactsApp\bin\Debug\ContactsApp.pdb
+D:\Github\ContactsApp\ContactsApp\obj\Debug\ContactsApp.csproj.AssemblyReference.cache
+D:\Github\ContactsApp\ContactsApp\obj\Debug\ContactsApp.csproj.SuggestedBindingRedirects.cache
+D:\Github\ContactsApp\ContactsApp\obj\Debug\ContactsApp.Properties.Resources.resources
+D:\Github\ContactsApp\ContactsApp\obj\Debug\ContactsApp.Server.resources
+D:\Github\ContactsApp\ContactsApp\obj\Debug\ContactsApp.csproj.GenerateResource.cache
+D:\Github\ContactsApp\ContactsApp\obj\Debug\ContactsApp.csproj.CoreCompileInputs.cache
+D:\Github\ContactsApp\ContactsApp\obj\Debug\ContactsApp.exe
+D:\Github\ContactsApp\ContactsApp\obj\Debug\ContactsApp.pdb
