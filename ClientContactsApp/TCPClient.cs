@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ClientContactsApp
 {
-    internal class TCPClient
+    public class TCPClient
     {
         public TCPClient(string ip, string port, int bytes)
         {
@@ -35,12 +35,27 @@ namespace ClientContactsApp
             }
         }
 
+        public void Send(Requests req)
+        {
+            _Socket.Send(req.toBytes());
+        }
+
+        public void Send(string str)
+        {
+            try
+            {
+                _Socket.Send(Encoding.UTF8.GetBytes(str));
+            }
+            catch (SocketException) { }
+            catch (ObjectDisposedException) { }
+        }
+
         public Responses Receive()
         {
             try
             {
                 int bytes = _Socket.Receive(_Buffers, 0, _Bytes, SocketFlags.None);
-                return (bytes > 0) ? new Responses(_Buffers, bytes) : null;
+                return (bytes > 1) ? new Responses(_Buffers, bytes) : null;
             }
             catch (SocketException) { return null; }
             catch (ObjectDisposedException) { return null; }
