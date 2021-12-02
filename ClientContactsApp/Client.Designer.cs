@@ -76,6 +76,7 @@
             this.DisconnectClient.TabIndex = 5;
             this.DisconnectClient.Text = "Disconnect";
             this.DisconnectClient.UseVisualStyleBackColor = true;
+            this.DisconnectClient.Click += new System.EventHandler(this.DisconnectClient_Click);
             // 
             // ConnectClient
             // 
@@ -139,6 +140,7 @@
             this.MaximizeBox = false;
             this.Name = "Client";
             this.Text = "Client Digital Contacts";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Client_FormClosing);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

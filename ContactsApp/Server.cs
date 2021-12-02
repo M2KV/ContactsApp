@@ -4,7 +4,8 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
+using System.Net;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -20,6 +21,22 @@ namespace ContactsApp
         private bool Empty(string str)
         {
             return string.IsNullOrEmpty(str) || string.IsNullOrWhiteSpace(str);
+        }
+
+        private bool IsIPAddress(string ip)
+        {
+            Match collection = Regex.Match(ip, @"\b((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)(\.|$)){4}\b");
+
+            if (collection.Value.Length <= 0) return false;
+            return true;
+        }
+
+        private bool IsPortNumber(string port)
+        {
+            Match collection = Regex.Match(port, @"^([0-9]{1,4}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])$");
+
+            if (collection.Value.Length <= 0) return false;
+            return true;
         }
 
         private void IPBox_Enter(object sender, EventArgs e)
@@ -69,13 +86,17 @@ namespace ContactsApp
             IPBox.ForeColor     = (AutomaticBox.Checked) ? SystemColors.WindowText : SystemColors.WindowFrame;
             PortBox.ForeColor   = (AutomaticBox.Checked) ? SystemColors.WindowText : SystemColors.WindowFrame;
 
-            IPBox.Text   = (!AutomaticBox.Checked)   ? "Input IP"    : "127.0.0.1";
+            IPBox.Text   = (!AutomaticBox.Checked)   ? "Input IP"    : IPAddress.Loopback.ToString();
             PortBox.Text = (!AutomaticBox.Checked)   ? "Input Port"  : "8080";
         }
 
         private void RunServer_Click(object sender, EventArgs e)
         {
-            if (_Server == null)
+            if (Empty(IPBox.Text) || Empty(PortBox.Text))
+                _ = MessageBox.Show("IP address or Port number can not be empty", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            else if (!IsIPAddress(IPBox.Text) || !IsPortNumber(PortBox.Text))
+                _ = MessageBox.Show("IP address or Port number is invalid", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            else if (_Server == null)
             {
                 _Server = new TCPServer(IPBox.Text, PortBox.Text, 10485760);
                 _Server.ConsoleLogger = ConsoleLogger;
@@ -90,12 +111,13 @@ namespace ContactsApp
 
                     _ = MessageBox.Show("Server is running !", "Server running", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
-                else 
+                else
+                {
+                    _Server = null;
                     _ = MessageBox.Show("Server cannot run !", "Server error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
-
-        private static TCPServer _Server = null;
 
         private void StopServer_Click(object sender, EventArgs e)
         {
@@ -118,14 +140,19 @@ namespace ContactsApp
 
         private void Server_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (_Server != null && _Server.connected)
+            DialogResult res = MessageBox.Show("Do you want to exit ?", "Exit ?", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            if (res == DialogResult.Yes)
             {
-                _Server.Stop();
-                _Server = null;
-
-                StopServer.Enabled = false;
-                RunServer.Enabled = true;
+                e.Cancel = false;
+                if (_Server != null && _Server.connected)
+                {
+                    _Server.Stop();
+                    _Server = null;
+                }
             }
+            else e.Cancel = true;
         }
+
+        private static TCPServer _Server = null;
     }
 }
