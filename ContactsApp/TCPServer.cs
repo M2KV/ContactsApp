@@ -6,6 +6,9 @@ using System.Net.Sockets;
 using System.Windows.Forms;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace ContactsApp
 {
@@ -19,6 +22,7 @@ namespace ContactsApp
             _Buffers    = new byte[bytes];
             connected   = false;
             _Clients    = new List<Socket>();
+            _ResData    = new List<Contacts>();
         }
 
         private static void InvokeConsole(RichTextBox console, string text, bool append = false)
@@ -42,6 +46,13 @@ namespace ContactsApp
             }
         }
 
+        private void LoadDatabase()
+        {
+            string json = File.ReadAllText("Database/contacts.json");
+            JToken token = JsonConvert.DeserializeObject<JToken>(json);
+            _Data = JsonConvert.DeserializeObject<List<ContactsDB>>(token.First.First.ToString());
+        }
+
         public void Run()
         {
             try
@@ -56,6 +67,7 @@ namespace ContactsApp
                 connected = true;
                 InvokeConsole(_ConsoleLogger, "\n   Server running successfully !\n", true);
                 InvokeConsole(_ConsoleStatus, "\n", false);
+                LoadDatabase();
             }
             catch (SocketException ex)
             {
@@ -109,7 +121,7 @@ namespace ContactsApp
 
                 int bytes = socket.EndReceive(ar);
 
-                if (bytes > 0)
+                if (bytes > 1)
                 {
                     Requests req = new Requests(_Buffers, bytes);
                     switch (req.action)
@@ -121,10 +133,22 @@ namespace ContactsApp
                             socket.Close();
                             _ = _Clients.Remove(socket);
                             break;
+
+                        case "request-all":
+                            _ResData.Clear();
+                            foreach (ContactsDB contact in _Data)
+                                _ResData.Add(new Contacts(contact));
+
+                            string json = JsonConvert.SerializeObject(_ResData);
+
+                            Responses res = new Responses("request-all", json);
+                            byte[] buff = res.toBytes();
+
+                            _ = socket.Send(buff);
+                            break;
                     }    
                 }    
-                
-                _ = socket.BeginSend(null, 0, 0, SocketFlags.None, SendCallback, socket);
+                else _ = socket.Send(Encoding.UTF8.GetBytes(" "));
                 _ = socket.BeginReceive(_Buffers, 0, _Bytes, SocketFlags.None, ReceiveCallback, socket);
             }
             catch (SocketException) 
@@ -135,19 +159,6 @@ namespace ContactsApp
                 socket.Close();
                 _ = _Clients.Remove(socket);
             }
-            catch (ObjectDisposedException) { }
-        }
-
-        private static void SendCallback(IAsyncResult ar)
-        {
-            try
-            {
-                Socket socket = ar.AsyncState as Socket;
-                _ = socket.EndSend(ar);
-
-                _ = socket.BeginSend(null, 0, 0, SocketFlags.None, SendCallback, socket);
-            }
-            catch (SocketException) { }
             catch (ObjectDisposedException) { }
         }
 
@@ -177,6 +188,8 @@ namespace ContactsApp
 
         private static Socket _Socket;
         private static List<Socket> _Clients;
+        private static List<ContactsDB> _Data;
+        private static List<Contacts> _ResData;
         private static IPAddress _IP;
         private static int _Port;
         private static int _Bytes;

@@ -112,6 +112,7 @@ namespace ClientContactsApp
                     Hide();
                     
                     Searching search = new Searching();
+                    search.Client = _Client;
                     search.ShowDialog();
                     
                     Show();
@@ -134,6 +135,7 @@ namespace ClientContactsApp
                 while (running && _Client != null && _Client.connected)
                 {
                     res = _Client.Receive();
+                    
                     if (res != null)
                     {
                             if (res.action == "Disconnected")

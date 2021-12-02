@@ -7,10 +7,16 @@ using Newtonsoft.Json;
 
 namespace ClientContactsApp
 {
-    internal class Responses
+    public class Responses
     {
         public string action;
         public string message;
+
+        public Responses()
+        {
+            action = null;
+            message = null;
+        }
 
         public Responses(byte[] buffers, int bytes)
         {
@@ -23,7 +29,8 @@ namespace ClientContactsApp
             string json = Encoding.UTF8.GetString(req);
             try
             {
-                Requests newRequest = JsonConvert.DeserializeObject<Requests>(json);
+                Responses newRequest = new Responses();
+                newRequest = JsonConvert.DeserializeObject<Responses>(json);
 
                 action = newRequest.action;
                 message = newRequest.message;

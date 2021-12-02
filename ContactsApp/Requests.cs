@@ -12,6 +12,12 @@ namespace ContactsApp
         public string action;
         public string message;
 
+        public Requests()
+        {
+            action = null;
+            message = null;
+        }
+
         public Requests(byte[] buffers, int bytes)
         {
             action = null;
@@ -23,7 +29,8 @@ namespace ContactsApp
             string json = Encoding.UTF8.GetString(req);
             try
             {
-                Requests newRequest = JsonConvert.DeserializeObject<Requests>(json);
+                Requests newRequest = new Requests();
+                newRequest = JsonConvert.DeserializeObject<Requests>(json);
 
                 action = newRequest.action;
                 message = newRequest.message;
