@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 
 namespace ClientContactsApp
 {
-    internal class Requests
+    public class Requests
     {
         public string action;
         public string message;
