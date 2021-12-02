@@ -1,0 +1,15 @@
+D:\Github\ContactsApp\ClientContactsApp\bin\Debug\ClientContactsApp.exe.config
+D:\Github\ContactsApp\ClientContactsApp\bin\Debug\ClientContactsApp.exe
+D:\Github\ContactsApp\ClientContactsApp\bin\Debug\ClientContactsApp.pdb
+D:\Github\ContactsApp\ClientContactsApp\obj\Debug\ClientContactsApp.csproj.SuggestedBindingRedirects.cache
+D:\Github\ContactsApp\ClientContactsApp\obj\Debug\ClientContactsApp.Client.resources
+D:\Github\ContactsApp\ClientContactsApp\obj\Debug\ClientContactsApp.Properties.Resources.resources
+D:\Github\ContactsApp\ClientContactsApp\obj\Debug\ClientContactsApp.csproj.GenerateResource.cache
+D:\Github\ContactsApp\ClientContactsApp\obj\Debug\ClientContactsApp.csproj.CoreCompileInputs.cache
+D:\Github\ContactsApp\ClientContactsApp\obj\Debug\ClientContactsApp.exe
+D:\Github\ContactsApp\ClientContactsApp\obj\Debug\ClientContactsApp.pdb
+D:\Github\ContactsApp\ClientContactsApp\obj\Debug\ClientContactsApp.csproj.AssemblyReference.cache
+D:\Github\ContactsApp\ClientContactsApp\bin\Debug\Newtonsoft.Json.dll
+D:\Github\ContactsApp\ClientContactsApp\bin\Debug\Newtonsoft.Json.xml
+D:\Github\ContactsApp\ClientContactsApp\obj\Debug\ClientContactsApp.csproj.CopyComplete
+D:\Github\ContactsApp\ClientContactsApp\obj\Debug\ClientContactsApp.Searching.resources
