@@ -220,6 +220,7 @@
             this.Search.TabStop = false;
             this.Search.Text = "Search";
             this.Search.UseVisualStyleBackColor = true;
+            this.Search.Click += new System.EventHandler(this.Search_Click);
             // 
             // DropdownChoice
             // 
@@ -228,6 +229,7 @@
             this.DropdownChoice.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DropdownChoice.FormattingEnabled = true;
             this.DropdownChoice.Items.AddRange(new object[] {
+            "Default",
             "ID",
             "Phone number",
             "Full name",

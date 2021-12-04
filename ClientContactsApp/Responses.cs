@@ -32,10 +32,13 @@ namespace ClientContactsApp
                 Responses newRequest = new Responses();
                 newRequest = JsonConvert.DeserializeObject<Responses>(json);
 
-                action = newRequest.action;
-                message = newRequest.message;
+                if (newRequest != null)
+                {
+                    action = newRequest.action;
+                    message = newRequest.message;
+                }    
             }
-            catch (JsonException) { }
+            catch { }
         }
     }
 }

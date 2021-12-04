@@ -65,7 +65,7 @@ namespace ContactsApp
                 _ = _Socket.BeginAccept(AcceptCallback, null);
                 
                 connected = true;
-                InvokeConsole(_ConsoleLogger, "\n   Server running successfully !\n", true);
+                InvokeConsole(_ConsoleLogger, "\n   Server running successfully !\n\n", true);
                 InvokeConsole(_ConsoleStatus, "\n", false);
                 LoadDatabase();
             }
@@ -103,14 +103,24 @@ namespace ContactsApp
             }
         }
 
+        private static void Logger(Socket socket, Requests req)
+        {
+            string Msg = DateTime.Now.ToString("   MM/dd/yyyy hh:mm tt\n");
+            Msg += "   " + ((IPEndPoint)socket.RemoteEndPoint).Address.ToString() + ":" + ((IPEndPoint)socket.RemoteEndPoint).Port.ToString() + "\n";
+            Msg += "   action: " + req.action + "\n";
+            Msg += "   message: " + req.message + "\n\n";
+            InvokeConsole(_ConsoleLogger, Msg, true);
+        }
+
         private static void ReceiveCallback(IAsyncResult ar)
         {
             Socket socket = ar.AsyncState as Socket;
             try
             {
+                string Msg = "";
                 if (IsConnected(socket) == false)
                 {
-                    string Msg = "   Client IP: " + ((IPEndPoint)socket.RemoteEndPoint).Address.ToString() + " - Port: " + ((IPEndPoint)socket.RemoteEndPoint).Port.ToString() + "\n";
+                    Msg = "   Client IP: " + ((IPEndPoint)socket.RemoteEndPoint).Address.ToString() + " - Port: " + ((IPEndPoint)socket.RemoteEndPoint).Port.ToString() + "\n";
                     InvokeConsole(_ConsoleStatus, Msg, string.Empty);
 
                     socket.Close();
@@ -121,36 +131,107 @@ namespace ContactsApp
 
                 int bytes = socket.EndReceive(ar);
 
-                if (bytes > 1)
+                Requests req = new Requests(_Buffers, bytes);  
+
+                switch (req.action)
                 {
-                    Requests req = new Requests(_Buffers, bytes);
-                    switch (req.action)
-                    {
-                        case "Disconnected":
-                            string Msg = "   Client IP: " + ((IPEndPoint)socket.RemoteEndPoint).Address.ToString() + " - Port: " + ((IPEndPoint)socket.RemoteEndPoint).Port.ToString() + "\n";
-                            InvokeConsole(_ConsoleStatus, Msg, string.Empty);
+                    case "Disconnected":
+                        Msg = "   Client IP: " + ((IPEndPoint)socket.RemoteEndPoint).Address.ToString() + " - Port: " + ((IPEndPoint)socket.RemoteEndPoint).Port.ToString() + "\n";
+                        InvokeConsole(_ConsoleStatus, Msg, string.Empty);
 
-                            socket.Close();
-                            _ = _Clients.Remove(socket);
-                            break;
+                        socket.Close();
+                        _ = _Clients.Remove(socket);
+                        break;
 
-                        case "request-all":
-                            _ResData.Clear();
-                            foreach (ContactsDB contact in _Data)
+                    case "request-all":
+                        Logger(socket, req);
+                        _ResData.Clear();
+                        foreach (ContactsDB contact in _Data)
+                            _ResData.Add(new Contacts(contact));
+
+                        string json = JsonConvert.SerializeObject(_ResData);
+
+                        Responses res = new Responses("request-all", json);
+                        byte[] buff = res.toBytes();
+
+                        _ = socket.Send(buff);
+                        break;
+
+                    case "request-ID":
+                        Logger(socket, req);
+                        _ResData.Clear();
+                        foreach (ContactsDB contact in _Data)
+                            if (contact.id.ToString() == req.message 
+                                || contact.id.ToString().Contains(req.message))
                                 _ResData.Add(new Contacts(contact));
 
-                            string json = JsonConvert.SerializeObject(_ResData);
+                        json = JsonConvert.SerializeObject(_ResData);
 
-                            Responses res = new Responses("request-all", json);
-                            byte[] buff = res.toBytes();
+                        res = new Responses("request-ID", json);
+                        buff = res.toBytes();
 
-                            _ = socket.Send(buff);
-                            break;
-                    }    
+                        _ = socket.Send(buff);
+                        break;
+
+                    case "request-Full name":
+                        Logger(socket, req);
+                        _ResData.Clear();
+                        foreach (ContactsDB contact in _Data)
+                            if (contact.username.ToLower() == req.message.ToLower()
+                                || contact.username.ToLower().Contains(req.message.ToLower()))
+                                    _ResData.Add(new Contacts(contact));
+
+                        json = JsonConvert.SerializeObject(_ResData);
+
+                        res = new Responses("request-Full name", json);
+                        buff = res.toBytes();
+
+                        _ = socket.Send(buff);
+                        break;
+
+                    case "request-Phone number":
+                        Logger(socket, req);
+                        _ResData.Clear();
+                        foreach (ContactsDB contact in _Data)
+                            for (int i = 0; i < contact.phonenumber.Count; ++i)
+                                if (contact.phonenumber[i] == req.message
+                                    || contact.phonenumber[i].Contains(req.message))
+                                {
+                                    _ResData.Add(new Contacts(contact));
+                                    break;
+                                }
+
+                        json = JsonConvert.SerializeObject(_ResData);
+
+                        res = new Responses("request-Phone number", json);
+                        buff = res.toBytes();
+
+                        _ = socket.Send(buff);
+                        break;
+
+                    case "request-Email":
+                        Logger(socket, req);
+                        _ResData.Clear();
+                        foreach (ContactsDB contact in _Data)
+                            if (contact.email.ToLower() == req.message.ToLower()
+                                || contact.email.ToLower().Contains(req.message.ToLower()))
+                                _ResData.Add(new Contacts(contact));
+
+                        json = JsonConvert.SerializeObject(_ResData);
+
+                        res = new Responses("request-Email", json);
+                        buff = res.toBytes();
+
+                        _ = socket.Send(buff);
+                        break;
+
+                    default:
+                        _ = socket.Send(Encoding.UTF8.GetBytes(" ")); // handshake
+                        break;
                 }    
-                else _ = socket.Send(Encoding.UTF8.GetBytes(" "));
                 _ = socket.BeginReceive(_Buffers, 0, _Bytes, SocketFlags.None, ReceiveCallback, socket);
             }
+            catch (ObjectDisposedException) { }
             catch (SocketException) 
             {
                 string Msg = "   Client IP: " + ((IPEndPoint)socket.RemoteEndPoint).Address.ToString() + " - Port: " + ((IPEndPoint)socket.RemoteEndPoint).Port.ToString() + "\n";
@@ -159,7 +240,6 @@ namespace ContactsApp
                 socket.Close();
                 _ = _Clients.Remove(socket);
             }
-            catch (ObjectDisposedException) { }
         }
 
         public void Stop()

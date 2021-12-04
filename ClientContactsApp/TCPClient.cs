@@ -37,7 +37,12 @@ namespace ClientContactsApp
 
         public void Send(Requests req)
         {
-            _Socket.Send(req.toBytes());
+            try
+            {
+                _Socket.Send(req.toBytes());
+            }
+            catch (SocketException) { }
+            catch (ObjectDisposedException) { }
         }
 
         public void Send(string str)
@@ -55,7 +60,7 @@ namespace ClientContactsApp
             try
             {
                 int bytes = _Socket.Receive(_Buffers, 0, _Bytes, SocketFlags.None);
-                return (bytes > 1) ? new Responses(_Buffers, bytes) : null;
+                return new Responses(_Buffers, bytes);
             }
             catch (SocketException) { return null; }
             catch (ObjectDisposedException) { return null; }

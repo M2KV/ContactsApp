@@ -31,11 +31,13 @@ namespace ContactsApp
             {
                 Requests newRequest = new Requests();
                 newRequest = JsonConvert.DeserializeObject<Requests>(json);
-
-                action = newRequest.action;
-                message = newRequest.message;
+                if (newRequest != null)
+                {
+                    action = newRequest.action;
+                    message = newRequest.message;
+                }    
             }
-            catch (JsonException) { }
+            catch { }
         }
     }
 }

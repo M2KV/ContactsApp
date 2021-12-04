@@ -75,17 +75,19 @@ namespace ClientContactsApp
                 while (running && _Client != null && _Client.connected)
                 {
                     res = _Client.Receive();
-                    _Client.Send(" ");
+                    _Client.Send(" "); // handshake
 
-                    if (res != null)
+                    if (res == null) running = false;
+                    else if (res.action != null)
                     {
                         if (res.action == "Disconnected")
                             _ = Invoke(new MethodInvoker(delegate {
                                 _ = MessageBox.Show(res.message, "Server stopped", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             }));
-                        else if (res.action == "request-all")
+                        else
                         {
                             contacts = JsonConvert.DeserializeObject<List<Contacts>>(res.message);
+                            page = 0;
                             UpdateForm();
                         }
                     }
@@ -96,7 +98,9 @@ namespace ClientContactsApp
 
         private void UpdateForm()
         {
-            Text = "Searching Digital Contacts - Page " + (page + 1).ToString() + "/" + (contacts.Count / step + 1).ToString();
+            Invoke(new MethodInvoker(delegate { 
+                Text = "Searching Digital Contacts - Page " + (page + 1).ToString() + "/" + (contacts.Count / step + 1).ToString();
+            }));
 
             for (int i = 0; i < step; ++i)
             {
@@ -123,7 +127,8 @@ namespace ClientContactsApp
                               pictureBoxes[i].Image = img;
                           }
 
-                          RichTextBoxs[i].Text += "\n   Full name: " + contacts[page * step + i].username;
+                          RichTextBoxs[i].Text += "   ID: " + contacts[page * step + i].id;
+                          RichTextBoxs[i].Text += "\n\n   Full name: " + contacts[page * step + i].username;
                           RichTextBoxs[i].Text += "\n\n   Phonenumbers: \n";
 
                           for (int j = 0; j < contacts[page * step + i].phonenumber.Count; ++j)
@@ -179,5 +184,19 @@ namespace ClientContactsApp
         private int step = 6;
 
         public TCPClient Client { set { _Client = value; } }
+
+        private void Search_Click(object sender, EventArgs e)
+        {
+            if (Empty(SearchBox.Text) || SearchBox.Text == "Searching..." || Empty(DropdownChoice.Text))
+                MessageBox.Show("Search and choice cannot empty", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            else
+            {
+                Requests req;
+                if (DropdownChoice.Text == "Default")
+                    req = new Requests("request-all", "all");
+                else req = new Requests("request-" + DropdownChoice.Text, SearchBox.Text);
+                _Client.Send(req);
+            }
+        }
     }
 }
