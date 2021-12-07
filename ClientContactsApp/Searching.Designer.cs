@@ -242,6 +242,7 @@
             // 
             // Searching
             // 
+            this.AcceptButton = this.Search;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
@@ -263,6 +264,8 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.richTextBox0);
             this.Controls.Add(this.pictureBox0);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MinimizeBox = false;
             this.Name = "Searching";
             this.Text = "Searching Digital Contacts";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Searching_FormClosing);
