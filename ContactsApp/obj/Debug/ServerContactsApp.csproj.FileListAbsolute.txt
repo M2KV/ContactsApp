@@ -113,3 +113,231 @@ D:\Github\ContactsApp\ContactsApp\bin\Debug\Database\10097.jpg
 D:\Github\ContactsApp\ContactsApp\bin\Debug\Database\10098.jpg
 D:\Github\ContactsApp\ContactsApp\bin\Debug\Database\10099.jpg
 D:\Github\ContactsApp\ContactsApp\bin\Debug\Database\10100.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\contacts.json
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10001.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10002.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10003.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10004.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10005.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10006.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10007.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10008.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10009.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10010.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10011.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10012.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10013.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10014.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10015.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10016.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10017.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10018.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10019.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10020.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10021.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10022.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10023.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10024.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10025.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10026.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10027.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10028.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10029.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10030.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10031.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10032.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10033.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10034.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10035.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10036.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10037.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10038.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10039.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10040.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10041.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10042.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10043.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10044.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10045.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10046.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10047.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10048.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10049.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10050.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10051.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10052.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10053.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10054.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10055.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10056.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10057.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10058.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10059.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10060.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10061.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10062.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10063.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10064.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10065.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10066.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10067.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10068.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10069.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10070.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10071.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10072.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10073.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10074.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10075.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10076.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10077.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10078.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10079.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10080.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10081.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10082.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10083.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10084.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10085.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10086.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10087.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10088.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10089.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10090.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10091.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10092.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10093.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10094.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10095.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10096.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10097.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10098.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10099.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10100.jpg
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\ContactsApp.exe.config
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\ContactsApp.exe
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\ContactsApp.pdb
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\obj\Debug\ServerContactsApp.csprojAssemblyReference.cache
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\obj\Debug\ContactsApp.Properties.Resources.resources
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\obj\Debug\ContactsApp.Server.resources
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\obj\Debug\ServerContactsApp.csproj.GenerateResource.cache
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\obj\Debug\ServerContactsApp.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\obj\Debug\ServerContactsApp.csproj.CopyComplete
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\obj\Debug\ContactsApp.exe
+C:\Users\ASUS\Downloads\ContactsApp-Phong\ContactsApp\obj\Debug\ContactsApp.pdb
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\contacts.json
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10001.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10002.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10003.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10004.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10005.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10006.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10007.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10008.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10009.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10010.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10011.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10012.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10013.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10014.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10015.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10016.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10017.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10018.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10019.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10020.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10021.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10022.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10023.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10024.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10025.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10026.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10027.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10028.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10029.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10030.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10031.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10032.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10033.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10034.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10035.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10036.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10037.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10038.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10039.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10040.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10041.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10042.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10043.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10044.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10045.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10046.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10047.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10048.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10049.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10050.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10051.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10052.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10053.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10054.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10055.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10056.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10057.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10058.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10059.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10060.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10061.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10062.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10063.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10064.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10065.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10066.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10067.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10068.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10069.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10070.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10071.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10072.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10073.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10074.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10075.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10076.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10077.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10078.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10079.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10080.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10081.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10082.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10083.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10084.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10085.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10086.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10087.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10088.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10089.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10090.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10091.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10092.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10093.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10094.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10095.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10096.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10097.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10098.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10099.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Database\10100.jpg
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\ContactsApp.exe.config
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\ContactsApp.exe
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\ContactsApp.pdb
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\obj\Debug\ServerContactsApp.csprojAssemblyReference.cache
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\obj\Debug\ContactsApp.Properties.Resources.resources
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\obj\Debug\ContactsApp.Server.resources
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\obj\Debug\ServerContactsApp.csproj.GenerateResource.cache
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\obj\Debug\ServerContactsApp.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\obj\Debug\ServerContactsApp.csproj.CopyComplete
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\obj\Debug\ContactsApp.exe
+C:\Users\ASUS\OneDrive\Máy tính\ContactsApp-Phong\ContactsApp\obj\Debug\ContactsApp.pdb
