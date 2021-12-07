@@ -154,5 +154,20 @@ namespace ContactsApp
         }
 
         private static TCPServer _Server = null;
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PortBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ConsoleLogger_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
