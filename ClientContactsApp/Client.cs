@@ -192,6 +192,11 @@ namespace ClientContactsApp
         private bool running = false;
         private Thread ReceiveThread = null;
         private TCPClient _Client = null;
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
