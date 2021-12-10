@@ -135,14 +135,16 @@ namespace ClientContactsApp
                 while (running && _Client != null && _Client.connected)
                 {
                     res = _Client.Receive();
-                    
+
                     if (res != null)
                     {
-                            if (res.action == "Disconnected")
-                                Invoke(new MethodInvoker(delegate { 
+                        if (res.action == "Disconnected")
+                            Invoke(new MethodInvoker(delegate
+                            {
                                 _ = MessageBox.Show(res.message, "Server stopped", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                                }));
+                            }));
                     }
+                    else running = false;
                 }
             });
             ReceiveThread.Start();
