@@ -81,6 +81,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Searching.resx">
       <DependentUpon>Searching.cs</DependentUpon>
@@ -98,6 +99,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo.png" />
+    <None Include="Resources\stop-button.png" />
+    <None Include="Resources\servers1.png" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\port.png" />
+    <None Include="Resources\next.png" />
+    <None Include="Resources\disconnect.png" />
+    <None Include="Resources\connect.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
