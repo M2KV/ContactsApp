@@ -71,12 +71,13 @@ namespace ClientContactsApp
             try
             {
                 Requests req = new Requests("Disconnected", "Client was disconnected");
-                _Socket.Close();
-
-                connected = false;
-                GC.Collect(0);
+                _ = _Socket.Send(req.toBytes());
             }
             catch { }
+            _Socket.Close();
+
+            connected = false;
+            GC.Collect(0);
         }
 
         private static Socket _Socket;

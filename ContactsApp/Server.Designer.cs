@@ -75,7 +75,6 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Controls";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // pictureBox4
             // 
@@ -166,7 +165,6 @@
             this.PortBox.Size = new System.Drawing.Size(226, 27);
             this.PortBox.TabIndex = 2;
             this.PortBox.Text = "Input Port";
-            this.PortBox.TextChanged += new System.EventHandler(this.PortBox_TextChanged);
             this.PortBox.Enter += new System.EventHandler(this.PortBox_Enter);
             this.PortBox.Leave += new System.EventHandler(this.PortBox_Leave);
             // 
@@ -200,7 +198,6 @@
             this.ConsoleLogger.Size = new System.Drawing.Size(366, 265);
             this.ConsoleLogger.TabIndex = 1;
             this.ConsoleLogger.Text = "";
-            this.ConsoleLogger.TextChanged += new System.EventHandler(this.ConsoleLogger_TextChanged);
             // 
             // ConsoleStatus
             // 
