@@ -113,7 +113,7 @@
             this.AutomaticBox.AutoSize = true;
             this.AutomaticBox.Location = new System.Drawing.Point(30, 117);
             this.AutomaticBox.Name = "AutomaticBox";
-            this.AutomaticBox.Size = new System.Drawing.Size(120, 29);
+            this.AutomaticBox.Size = new System.Drawing.Size(97, 24);
             this.AutomaticBox.TabIndex = 6;
             this.AutomaticBox.Text = "Automatic";
             this.AutomaticBox.UseVisualStyleBackColor = true;
@@ -149,17 +149,16 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(358, 37);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 25);
+            this.label2.Size = new System.Drawing.Size(93, 20);
             this.label2.TabIndex = 3;
             this.label2.Text = "Port Number";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // PortBox
             // 
             this.PortBox.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.PortBox.Location = new System.Drawing.Point(311, 63);
             this.PortBox.Name = "PortBox";
-            this.PortBox.Size = new System.Drawing.Size(226, 32);
+            this.PortBox.Size = new System.Drawing.Size(226, 27);
             this.PortBox.TabIndex = 2;
             this.PortBox.Text = "Input Port";
             this.PortBox.Enter += new System.EventHandler(this.PortBox_Enter);
@@ -170,7 +169,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(55, 37);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 25);
+            this.label1.Size = new System.Drawing.Size(78, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "IP Address";
             // 
@@ -179,14 +178,14 @@
             this.IPBox.ForeColor = System.Drawing.SystemColors.WindowText;
             this.IPBox.Location = new System.Drawing.Point(26, 63);
             this.IPBox.Name = "IPBox";
-            this.IPBox.Size = new System.Drawing.Size(226, 32);
+            this.IPBox.Size = new System.Drawing.Size(226, 27);
             this.IPBox.TabIndex = 0;
             this.IPBox.Enter += new System.EventHandler(this.IPBox_Enter);
             this.IPBox.Leave += new System.EventHandler(this.IPBox_Leave);
             // 
             // Client
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(585, 188);
