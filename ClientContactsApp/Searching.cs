@@ -187,7 +187,7 @@ namespace ClientContactsApp
 
         private void Search_Click(object sender, EventArgs e)
         {
-            if (DropdownChoice.Text != "Default" && (Empty(SearchBox.Text) || SearchBox.Text == "Searching..." || Empty(DropdownChoice.Text)))
+            if (Empty(SearchBox.Text) || SearchBox.Text == "Searching..." || Empty(DropdownChoice.Text))
                 MessageBox.Show("Search and choice cannot empty", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             else
             {

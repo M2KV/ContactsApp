@@ -71,6 +71,7 @@ namespace ClientContactsApp
             try
             {
                 Requests req = new Requests("Disconnected", "Client was disconnected");
+                _ = _Socket.Send(req.toBytes());
                 _Socket.Close();
 
                 connected = false;
